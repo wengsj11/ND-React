@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* 未加入班级页面 */
+.no-content {
+  padding-top: 158px;
+  text-align: center;
+}
+.no-content__txt {
+  color: #666666;
+  font-size: 14px;
+  margin-top: 23px;
+  margin-bottom: 14px;
+}

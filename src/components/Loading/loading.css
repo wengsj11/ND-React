@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* loader */
+.loading {
+  margin: 158px auto 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #219cee;
+  border-left: 2px solid transparent;
+  animation: roateLoader 1s linear infinite forwards;
+}
+.loading--small {
+  width: 15px;
+  height: 15px;
+}
+@keyframes roateLoader {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}

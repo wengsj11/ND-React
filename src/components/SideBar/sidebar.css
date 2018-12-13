@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* 侧边栏 */
+.l-sidebar {
+  float: left;
+  margin-top: 25px;
+  width: 240px;
+  min-height: 825px;
+  border-right: 1px solid #999999;
+  box-sizing: border-box;
+}
+.o-sidebar__hd {
+  height: 34px;
+  margin-bottom: 34px;
+}
+/* 侧边栏按钮 */
+.o-back-btn {
+  height: 100%;
+  background-color: #fff;
+  display: inline-block;
+  font-size: 0; /* 解决子元素inline-block之间有缝隙问题*/
+  /* letter-spacing: -2px; */
+}
+.o-back-btn .o-icon {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.o-icon--back {
+  background: url('../../resource/images/prev.png') no-repeat;
+}
+.o-btn__txt {
+  color: #a9a9a9;
+  font-size: 20px;
+  padding-left: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.o-menu-btn {
+  height: 100%;
+  float: right;
+  padding-right: 13px;
+  background-color: #fff;
+}
+.o-menu-btn .o-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.o-icon--menu {
+  background: url('../../resource/images/menu.png') no-repeat;
+}
+/* 侧边栏菜单项 */
+.c-menu__bd li {
+  height: 60px;
+  line-height: 60px;
+  transition: 0.2s linear;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+}
+.c-menu__bd li.ui-active{
+  background-color: #f4f5f5;
+}
+.c-menu__bd li.ui-active::before{
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 60px;
+  background-color: #3ba8f0;
+}
+.c-menu__item {
+  padding-left:63px;
+  font-size: 14px;
+  color: #333333;
+}
+.c-menu__bd li:hover {
+  background-color: #f4f5f5;
+}
+.c-menu__bd li:hover > a{
+  color: #3ba8f0;
+}
+.c-menu__bd li:nth-child(1) a{
+  background: url('../../resource/images/home.png') no-repeat 27px;
+}
+.c-menu__bd li:nth-child(2) a{
+  background: url('../../resource/images/paper.png') no-repeat 27px;
+}
+.c-menu__bd li:nth-child(3) a{
+  background: url('../../resource/images/class.png') no-repeat 27px;
+}
+.c-menu__bd li:nth-child(4) a{
+  background: url('../../resource/images/time.png') no-repeat 27px;
+}
+.c-menu__bd li:nth-child(1).ui-active a{
+  background: url('../../resource/images/home_active.png') no-repeat 27px;
+}
+.c-menu__bd li:nth-child(2).ui-active a{
+  background: url('../../resource/images/paper_active.png') no-repeat 27px;
+}
+.c-menu__bd li:nth-child(3).ui-active a{
+  background: url('../../resource/images/class_active.png') no-repeat 27px;
+}
+.c-menu__bd li:nth-child(4).ui-active a{
+  background: url('../../resource/images/time_active.png') no-repeat 27px;
+}

@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* 班级列表页面 */
+.cl-intro {
+  padding-top: 19px;
+  color: #333333;
+  font-size: 14px;
+}
+.cl-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.cl-list-item {
+  width: 338px;
+  height: 158px;
+  border: 1px solid #dddddd;
+  margin-right: 19px;
+  margin-top: 19px;
+  transition: 0.2s linear;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.cl-list-item:hover {
+  border: 1px solid #3ca8f0;
+}
+.cl-list-item__pic {
+  margin-left: 30px;
+  margin-right: 19px;
+}
+.cl-list-item__info {
+  display: inline-block;
+  color: #999999;
+  font-size: 14px;
+}
+.cl-list-item__info span {
+  color: #333333;
+}
+.o-setting-btn {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 15px;
+  top: 13px;
+}
+.o-icon--setting {
+  background: url('../../resource/images/setting.png') no-repeat 50% 50%;
+}
+.cl-tag {
+  width: 56px;
+  height: 20px;
+  background-color: #3ba8f0;
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  line-height: 20px;
+}

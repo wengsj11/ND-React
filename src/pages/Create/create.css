@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* 创建班级表单页面 */
+.cr-title {
+  padding: 20px 0;
+}
+.o-text {
+  color: #666666;
+  font-size: 14px;
+}
+.o-text--blue {
+  color: #3ba8f0;
+}
+
+.o-text--error {
+  margin-left: 10px;
+  color: #f56c6c;
+  font-size: 12px;
+}
+.c-form-input .loading {
+  margin: 10px 0 0 10px;
+}
